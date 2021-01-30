@@ -1,0 +1,40 @@
+*~
+*.py[co]
+.DS_Store
+__pycache__
+out
+cover
+.idea
+.
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+private_files
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+# Textmate (a Mac editor) meta files
+._*
+
+*.yml
