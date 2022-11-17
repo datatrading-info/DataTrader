@@ -68,4 +68,5 @@ if __name__ == "__main__":
     tickers = ["SPY"]
     filename = None
     run(config, testing, tickers, filename)
+    print("")
 
