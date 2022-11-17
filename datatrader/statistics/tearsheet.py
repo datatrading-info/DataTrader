@@ -125,8 +125,6 @@ class TearsheetStatistics(AbstractStatistics):
 
     def _get_positions(self):
         """
-        Retrieve the list of closed Positions objects from the portfolio
-        and reformat into a pandas dataframe to be returned
         Recupera l'elenco degli oggetti Positions chiusi dal portfolio
         e riformattato in un dataframe Pandas da restituire
         """

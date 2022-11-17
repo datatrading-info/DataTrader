@@ -142,12 +142,8 @@ class YahooDailyCsvBarPriceHandler(AbstractBarPriceHandler):
         # del prezzo di chiusura aggiustata
         # TODO: Aumentare la velocità
         if self.calc_adj_returns:
-            prev_adj_close = self.tickers[ticker][
-                "adj_close"
-            ] / float(PriceParser.PRICE_MULTIPLIER)
-            cur_adj_close = event.adj_close_price / float(
-                PriceParser.PRICE_MULTIPLIER
-            )
+            prev_adj_close = self.tickers[ticker]["adj_close"] / float(PriceParser.PRICE_MULTIPLIER)
+            cur_adj_close = event.adj_close_price / float(PriceParser.PRICE_MULTIPLIER)
             self.tickers[ticker][
                 "adj_close_ret"
             ] = cur_adj_close / prev_adj_close - 1.0
